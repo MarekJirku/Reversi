@@ -128,6 +128,15 @@ class MyPlayer:
                     score -= self.value_matrix[r][c]
         return score
 
+        
+##### Poznamka ######
+# stravil jsem hodne casu vytvarenim hrace, ktery si simuluje tahy dopredu a podle nich se rozhoduje
+# napsal jsem 2 ale bohuzel ani jeden neni moc dobry (lepsi nez tenhle) takze do turnaje posilam tohole s pomerne jednoduchou ale ucinnou strategii
+# kbyby Vas zajimaly moje pokusy a snaha muzete se podivat zde https://github.com/MarekJirku/Reversi
+# kody nejsou prehledene a jsou v pracovni verzi tak necekejte zadnou nadheru :)
+# poznamky k praci nebo pripadne oceneni snahy bude pouze vitano :D
+# diky Marek Jirku
+
 
 if __name__ == "__main__":
     board = \
@@ -145,5 +154,3 @@ if __name__ == "__main__":
     player = MyPlayer(1,0)
     print(player.move(board))
  
-
-        
